@@ -97,14 +97,3 @@ rag-assistant-starter/
 
 ---
 
-## Evaluation Notes (Publication + Repo)
-- **Clear architecture**: diagrams/description of ingestion, retrieval, prompting.
-- **Reproducibility**: `requirements.txt`, `.env.example`, commands, dataset description.
-- **Functionality**: working CLI/UI, runbooks.
-- **Code quality**: typing, docstrings, comments, small functions.
-- **Logging/Observability**: opt-in LangSmith.
-- **Sample queries & outputs**: include `examples/seed_questions.txt` and screenshots.
-- **Ethics & licensing**: confirm you have rights to the data.
-- **Limitations**: describe failure modes, hallucination mitigations, chunking choices, retriever params.
-
-See `eval/eval_instructions.md` for a lightweight RAG evaluation outline.
