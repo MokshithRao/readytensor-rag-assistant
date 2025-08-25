@@ -1,0 +1,7 @@
+# Basic configuration
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+chunk_size: 1000
+chunk_overlap: 200
+k: 4
+search_type: similarity  # or mmr
+store_type: faiss         # (faiss|chroma)
